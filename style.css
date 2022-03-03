@@ -1,19 +1,21 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 300px;
 }
-table,th,td{
-    border:1px solid blue;
+div{
+    border-radius: 10px;
+    padding: 10px;
     text-align: center;
-    padding: 5px;
-    font-size: 20px;
+    background-color: #686161;
+    margin: 10px;
+    width: 500px;
 }
-table{
-    width: 70%;
-    box-shadow: 0 0 10px red;
+#rounded-all{
+    border: 10px solid red;
+    border-radius: 40px;
 }
-/* top left right bottom */
+#rounded-two{
+    border: 10px solid red;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
 
-#test thead{
-    background-color: #76ff37;
-    color: blue;
-}

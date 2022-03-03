@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table,th,td{
+    border:1px solid blue;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+table{
+    width: 70%;
+    box-shadow: 0 0 10px red;
+}
+
+/* top left right bottom */
+
+.container thead{
+    background-color: #76ff37;
+    color: blue;
+}
